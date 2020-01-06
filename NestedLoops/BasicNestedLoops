@@ -1,0 +1,15 @@
+public class BasicNestedLoops
+{
+   public static void main(String[] args)
+   {
+      for(int tens=0; tens<6; tens++)
+      {
+         
+         for(int ones=0; ones<6; ones++)
+         {
+            System.out.print("(" + tens + "," + ones + ")" + " " );
+         }
+         System.out.println();
+      }
+   }
+}
