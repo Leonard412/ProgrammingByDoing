@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class DisplayingSomeMultiples
+{
+   public static void main(String[] args)
+   {
+      Scanner keyboard = new Scanner(System.in);
+      
+      int num;
+      int numMults = 12;
+      
+      System.out.print("Choose a number: ");
+      num = keyboard.nextInt();
+      
+      for(int i = 1; i <= numMults; i++)
+      {
+         System.out.println(num + " x " + i + " = " + (num * i) );
+      }
+   }
+}
