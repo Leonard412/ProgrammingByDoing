@@ -1,0 +1,23 @@
+import java.io.*;
+
+public class LetterRevisited
+{
+   public static void main(String[] args) throws IOException
+   {
+      File letter = new File("letter.txt");
+      FileWriter fw = new FileWriter(letter);
+      PrintWriter pw = new PrintWriter(fw);
+         
+         pw.println("+-------------------------------------------------------------+");
+         pw.println("|                                                        #### |");
+         pw.println("|                                                        #### |");
+         pw.println("|                                                        #### |");
+         pw.println("|                             Leonard Hawkes                  |");
+         pw.println("|                             1 Get Me A Job Ave.             |");
+         pw.println("|                             United States of America        |");
+         pw.println("|                                                             |");
+         pw.println("|                                                             |");
+         pw.println("+-------------------------------------------------------------+");
+         pw.close();     
+   }
+}
